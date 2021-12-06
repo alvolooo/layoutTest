@@ -1,0 +1,223 @@
+
+body {
+    font-family: 'Gilroy-Bold';
+    background: #FFFFFF;
+}
+
+header {
+    background: #FFFFFF;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.header_container {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: solid darkgray 1px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: center;
+}
+
+.home {
+    padding-bottom: 5%;
+    width: 70%;
+}
+
+.home_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background: #FFFFFF;
+}
+
+.name {
+    font-size: 47px;
+    color: black;
+    width: 150px;
+    height: fit-content;
+}
+
+.inf {
+    font-size: 22px;
+    font-family: 'Gilroy-Medium';
+}
+
+.lang {
+    writing-mode: vertical-rl;
+    font-size: 16px;
+}
+
+.my_photo {
+    width: 100%;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #F6F6F6;
+}
+
+.title {
+    font-size: 34px;
+    font-family: 'Gilroy-Bold';
+}
+
+.text_about_me {
+    width: 480px;
+    font-size: 18px;
+    font-family: 'Gilroy-Medium';
+    text-align: center;
+}
+
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: #FFFFFF;
+    padding-bottom: 5%;
+}
+
+.skills_text {
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+}
+
+.programs {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.pr {
+    text-align: center;
+
+}
+
+.prog_img {
+    height: 90px;
+}
+
+.prog_text {
+    font-size: 14px;
+    color: #828282;
+}
+
+
+.star {
+    height: 26px;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #F6F6F6;
+    padding-top: 5%;
+}
+
+.layout {
+    margin-bottom: 50px;
+}
+
+.layout_img {
+    width: 930px;
+}
+
+.layout_text {
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    text-decoration: underline;
+    color: black;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFFFFF;
+    padding-top: 5%;
+}
+
+.cont_text {
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    color: black;
+}
+.send {
+    width: 180px;
+    height: 42px;;
+    background-color: black;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-size: 18px;
+    font-family: 'Gilroy-Bold';
+    border: none;
+}
+
+.logo {
+    width: 40px;
+    margin: 20px;
+}
+
+.logos {
+    margin-top: 5%;
+}
+
+.foot {
+    font-size: 14px;
+    color: #828282;
+    font-family: 'Gilroy-Medium';
+    text-align: center;
+}
+
+
+@font-face {
+	font-family: 'Gilroy-Bold';
+	src: url('fonts/gilroy-bold.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/gilroy-bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/gilroy-bold.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/gilroy-bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/gilroy-bold.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/gilroy-bold.svg') format('svg'); /* Chrome < 4, Legacy iOS */
+}
+
+@font-face {
+	font-family: 'Gilroy-Medium';
+	src: url('fonts/gilroy-medium.eot'); /* IE 9 Compatibility Mode */
+	src: url('fonts/gilroy-medium.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
+		url('fonts/gilroy-medium.woff2') format('woff2'), /* Super Modern Browsers */
+		url('fonts/gilroy-medium.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
+		url('fonts/gilroy-medium.ttf') format('truetype'), /* Safari, Android, iOS */
+		url('fonts/gilroy-medium.svg#gilroy-medium') format('svg'); /* Chrome < 4, Legacy iOS */
+}
